@@ -1,11 +1,13 @@
 import './styles/styles.css';
+import Logo from './img/mylogo.png';
 
 function App() {
   return (
     <>
       <div className="portfolio-background">
+        <img className="portfolio-logo-absolute" src={Logo} alt="RM logo"/>
         <div className="content-container">
-            Hello World!
+            
         </div>
       </div>
 

@@ -19,6 +19,10 @@ html::-webkit-scrollbar-thumb {
   background-color: hsl(13, 89%, 50%);
 }
 
+.portfolio-logo-absolute {
+  position: absolute;
+}
+
 .portfolio-background {
   background-color: hsl(42, 21%, 72%);
   color: hsl(20, 6%, 15%);
