@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.portfolio-background {
+  background-color: hsl(42, 21%, 72%);
+  color: hsl(20, 6%, 15%);
+  height: 100%;
+}
+
+.content-container {
+  height: 100vh;
+}
+
+.portfolio-footer-container {
+  text-align: center;
+  font-size: 1.2vw;
+  background-color: hsl(13, 89%, 60%);
+  color: hsl(20, 6%, 15%);
+  padding: 1% 0;
+}
