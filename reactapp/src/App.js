@@ -5,7 +5,7 @@ import Projects from './components/Projects.js';
 import Skills from './components/Skills.js';
 import About from './components/About.js';
 import Contact from './components/Contact.js';
-import Sidebar from './components/Sidebar';
+import HamburgerMenu from './components/HamburgerMenu';
 
 function App() {
   return (
