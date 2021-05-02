@@ -12,7 +12,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar {
-  width: 0.75vw;
+  width: 15px;
   background-color: hsl(20, 6%, 15%);
 }
 
@@ -41,10 +41,22 @@ html::-webkit-scrollbar-thumb {
   padding: 15vh 15%;
 }
 
+.logo-loading {
+  width: 30vw;
+  padding: auto;
+}
+
+.logo-loading-container {
+  height: 70vh;
+  width: 70vw;
+  position: absolute;
+  text-align: center;
+}
+
 /* ========== Welcome content ========== */
 
 .welcome-content-height {
-  border: 2px solid hsl(13, 89%, 54%);
+  /* border: 2px solid hsl(13, 89%, 54%); */
 }
 
 .welcome-content {
@@ -97,17 +109,61 @@ html::-webkit-scrollbar-thumb {
 /* ========== Animations ========== */
 
 .fade-in-right-to-left {
-	animation: fadeIn 1.5s;
-  opacity: 1;
-
+	animation-name: fadeInRight;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
+.logo-loading-breathing {
+  animation: breath 2.75s linear;
+  animation-fill-mode: forwards;
+  opacity: 1;
+}
 
+.logo-fade-in {
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
 
-@keyframes rightThenLeft {
-  0%   {left: 0%;}
-  50%  {left: 100%;}
-  100% {left: 0%;}
+@keyframes breath {
+  0%   { 
+    width: 30vw;
+    opacity: 1; 
+  }
+  20% { 
+    width: 35vw;
+    opacity: 1; 
+  }
+  40% { 
+    width: 30vw;
+    opacity: 1; 
+  }
+  60%   { 
+    width: 35vw;
+    opacity: 1;
+  }
+  80%   { 
+    width: 30vw;
+    opacity: 1;
+  }
+  100% { 
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+  	opacity: 0;
+    transform: translate(10vw,0);
+  }
+  to {
+ 	  opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
@@ -118,3 +174,15 @@ html::-webkit-scrollbar-thumb {
  	  opacity: 1;
   }
 }
+
+/* Highlight text color */
+
+::-moz-selection {
+  background-color: hsl(13, 89%, 60%);
+  color: #fff;
+  }
+  
+  ::selection {
+  background-color: hsl(13, 89%, 60%);
+  color: #fff;
+  }

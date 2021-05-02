@@ -1,5 +1,5 @@
 import './styles/styles.css';
-import Logo from './img/mylogo.png';
+import Logo from './img/mylogo1024.png';
 import Welcome from './components/Welcome.js';
 import Projects from './components/Projects.js';
 import Skills from './components/Skills.js';
@@ -12,7 +12,7 @@ function App() {
     <>
       <div className="portfolio-background">
         <div>
-          <img className="portfolio-logo-absolute" src={Logo} alt="RM logo"/>
+          <img className="portfolio-logo-absolute logo-fade-in" src={Logo} alt="RM logo"/>
           {/* <Sidebar/> */}
         </div>
         <Welcome/>
