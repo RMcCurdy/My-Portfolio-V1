@@ -25,7 +25,7 @@ html::-webkit-scrollbar-thumb {
 
 .portfolio-logo-absolute {
   position: absolute;
-  padding: 5vh 0 0 3vw;
+  padding: 3vw 0 0 3vw;
   width: 8vw;
 }
 
@@ -36,17 +36,17 @@ html::-webkit-scrollbar-thumb {
 }
 
 .content-container {
-  padding: 10% 15%;
+  padding: 15vh 15%;
 }
 
 .content-height {
-  height: 60vh;
+  border: 2px solid red;
 }
 
 .welcome-content {
+  height: 70vh;
   align-items: center;
   justify-content: center;
-  border: 2px solid red;
 }
 
 .projects-content {
