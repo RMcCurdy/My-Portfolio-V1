@@ -3,7 +3,9 @@ import React from 'react'
 const Skills = () => {
   return (
     <div className="content-container">
-      My Skills!
+      <div className="skills-content content-height">
+        Skills
+      </div>
     </div>
   )
 }

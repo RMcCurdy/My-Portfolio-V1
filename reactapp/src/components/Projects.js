@@ -3,7 +3,9 @@ import React from 'react'
 const Projects = () => {
   return (
     <div className="content-container">
-      My Projects!
+      <div className="projects-content content-height">
+        Projects
+      </div>
     </div>
   )
 }

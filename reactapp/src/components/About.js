@@ -3,7 +3,9 @@ import React from 'react'
 const About = () => {
   return (
     <div className="content-container">
-      My About!
+      <div className="about-content content-height">
+        About
+      </div>
     </div>
   )
 }

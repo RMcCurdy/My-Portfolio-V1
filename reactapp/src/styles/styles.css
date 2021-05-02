@@ -36,12 +36,33 @@ html::-webkit-scrollbar-thumb {
 }
 
 .content-container {
-  height: 100vh;
   padding: 10% 15%;
 }
 
+.content-height {
+  height: 60vh;
+}
+
 .welcome-content {
-  
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+}
+
+.projects-content {
+
+}
+
+.skills-content {
+
+}
+
+.about-content {
+
+}
+
+.contact-content {
+
 }
 
 .portfolio-footer-container {
