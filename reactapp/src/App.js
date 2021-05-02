@@ -5,12 +5,16 @@ import Projects from './components/Projects.js';
 import Skills from './components/Skills.js';
 import About from './components/About.js';
 import Contact from './components/Contact.js';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <>
       <div className="portfolio-background">
-        <img className="portfolio-logo-absolute" src={Logo} alt="RM logo"/>
+        <div>
+          <img className="portfolio-logo-absolute" src={Logo} alt="RM logo"/>
+          {/* <Sidebar/> */}
+        </div>
         <Welcome/>
         <Projects/>
         <Skills/>
