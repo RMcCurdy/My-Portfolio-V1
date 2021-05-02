@@ -4,7 +4,7 @@ const Welcome = () => {
   return (
     <div className="content-container">
       <div className="welcome-content welcome-content-height welcome-font">
-        <div className="fade-in">
+        <div className="fade-in-right-to-left">
           Hi, I am Robert.<br/>
           University Student and<br/>
           aspiring Web Developer.

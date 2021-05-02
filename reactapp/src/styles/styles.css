@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-/* Scrollbar Styles */
+/* ========== Scrollbar Styles ========== */
 
 html::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -23,7 +23,7 @@ html::-webkit-scrollbar-thumb {
   background-color: hsl(13, 89%, 50%);
 }
 
-/* Portfolio globals */
+/* ========== Portfolio globals ========== */
 
 .portfolio-logo-absolute {
   position: absolute;
@@ -41,7 +41,7 @@ html::-webkit-scrollbar-thumb {
   padding: 15vh 15%;
 }
 
-/* Welcome content */
+/* ========== Welcome content ========== */
 
 .welcome-content-height {
   border: 2px solid hsl(13, 89%, 54%);
@@ -60,29 +60,31 @@ html::-webkit-scrollbar-thumb {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Projects content */
+/* ========== Projects content ========== */
 
 .projects-content {
 
 }
 
-/* Skills content */
+/* ========== Skills content ========== */
 
 .skills-content {
 
 }
 
-/* About content */
+/* ========== About content ========== */
 
 .about-content {
 
 }
 
-/* Contact content */
+/* ========== Contact content ========== */
 
 .contact-content {
 
 }
+
+/* ========== Footer ========== */
 
 .portfolio-footer-container {
   text-align: center;
@@ -92,10 +94,20 @@ html::-webkit-scrollbar-thumb {
   padding: 1% 0;
 }
 
-/* Animations */
-.fade-in {
+/* ========== Animations ========== */
+
+.fade-in-right-to-left {
 	animation: fadeIn 1.5s;
   opacity: 1;
+
+}
+
+
+
+@keyframes rightThenLeft {
+  0%   {left: 0%;}
+  50%  {left: 100%;}
+  100% {left: 0%;}
 }
 
 @keyframes fadeIn {
