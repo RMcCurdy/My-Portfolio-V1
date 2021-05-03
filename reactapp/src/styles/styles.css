@@ -43,14 +43,15 @@ html::-webkit-scrollbar-thumb {
 
 .logo-loading {
   width: 30vw;
-  padding: auto;
 }
 
 .logo-loading-container {
   height: 70vh;
   width: 70vw;
   position: absolute;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ========== Welcome content ========== */
@@ -111,13 +112,13 @@ html::-webkit-scrollbar-thumb {
 .fade-in-right-to-left {
 	animation-name: fadeInRight;
   animation-duration: 1s;
-  animation-delay: 3s;
+  animation-delay: 3.25s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
 
 .logo-loading-breathing {
-  animation: breath 2.75s linear;
+  animation: breath 3s linear;
   animation-fill-mode: forwards;
   opacity: 1;
 }
@@ -125,7 +126,7 @@ html::-webkit-scrollbar-thumb {
 .logo-fade-in {
   animation-name: fadeIn;
   animation-duration: 1.5s;
-  animation-delay: 4s;
+  animation-delay: 4.25s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -177,12 +178,7 @@ html::-webkit-scrollbar-thumb {
 
 /* Highlight text color */
 
-::-moz-selection {
+::selection {
   background-color: hsl(13, 89%, 60%);
   color: #fff;
-  }
-  
-  ::selection {
-  background-color: hsl(13, 89%, 60%);
-  color: #fff;
-  }
+}
