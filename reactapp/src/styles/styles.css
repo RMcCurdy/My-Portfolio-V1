@@ -2,6 +2,13 @@ body {
   margin: 0;
 }
 
+p {
+  display: block !important;
+  margin: 0px !important;
+  border: 0px !important;
+  padding: 0px !important;
+}
+
 /* ========== Scrollbar Styles ========== */
 
 html::-webkit-scrollbar-track {
@@ -41,7 +48,13 @@ html::-webkit-scrollbar-thumb {
   padding: 15vh 15%;
 }
 
-.logo-loading {
+.content-html-tag-font {
+  color: red;
+  font-size: 10vw;
+  font-family: 'Kalam', cursive;
+}
+
+/* .logo-loading {
   width: 30vw;
 }
 
@@ -52,13 +65,9 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* ========== Welcome content ========== */
-
-.welcome-content-height {
-  /* border: 2px solid hsl(13, 89%, 54%); */
-}
 
 .welcome-content {
   height: 70vh;
@@ -69,14 +78,24 @@ html::-webkit-scrollbar-thumb {
 }
 
 .welcome-font {
-  font-size: 3vw;
+  font-size: 3.5vw;
   font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-words {
+  padding: 0 0 0 3vw;
+}
+
+.welcome-image {
+  position: absolute;
+  width: 17vw;
+  padding: 0 6vw 0 51vw;
 }
 
 /* ========== Projects content ========== */
 
 .projects-content {
-
+  display: flex;
 }
 
 /* ========== Skills content ========== */
@@ -112,26 +131,65 @@ html::-webkit-scrollbar-thumb {
 .fade-in-right-to-left {
 	animation-name: fadeInRight;
   animation-duration: 1s;
-  animation-delay: 3.25s;
+  animation-delay: 0.5s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
 
-.logo-loading-breathing {
-  animation: breath 3s linear;
+.fade-in-left-to-right {
+  animation-name: fadeInLeft;
+  animation-duration: 1s;
+  animation-delay: 1.25s;
   animation-fill-mode: forwards;
-  opacity: 1;
+  opacity: 0;
 }
 
 .logo-fade-in {
   animation-name: fadeIn;
-  animation-duration: 1.5s;
-  animation-delay: 4.25s;
+  animation-duration: 1s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
 
-@keyframes breath {
+@keyframes fadeInRight {
+  from {
+  	opacity: 0;
+    transform: translate(10vw,0);
+  }
+  to {
+ 	  opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+  	opacity: 0;
+    transform: translate(-7.5vw,0);
+  }
+  to {
+ 	  opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	  opacity: 1;
+  }
+}
+
+/* Breathing animation */
+
+/* .logo-loading-breathing {
+  animation: breath 3s linear;
+  animation-fill-mode: forwards;
+  opacity: 1;
+} */
+
+/* @keyframes breath {
   0%   { 
     width: 30vw;
     opacity: 1; 
@@ -155,26 +213,7 @@ html::-webkit-scrollbar-thumb {
   100% { 
     opacity: 0;
   }
-}
-
-@keyframes fadeInRight {
-  from {
-  	opacity: 0;
-    transform: translate(10vw,0);
-  }
-  to {
- 	  opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-  	opacity: 0;
-  }
-  to {
- 	  opacity: 1;
-  }
-}
+} */
 
 /* Highlight text color */
 
