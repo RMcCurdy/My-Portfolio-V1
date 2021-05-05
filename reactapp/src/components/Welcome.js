@@ -1,6 +1,5 @@
 import React from 'react';
 import PixelArt from '../img/pxArtShadow2.png';
-import '../styles/styles.css';
 
 const Welcome = () => {
     return (
