@@ -1,57 +1,57 @@
 body {
-  margin: 0;
+    margin: 0;
 }
 
 p {
-  display: block !important;
-  margin: 0px !important;
-  border: 0px !important;
-  padding: 0px !important;
+    display: block !important;
+    margin: 0px !important;
+    border: 0px !important;
+    padding: 0px !important;
 }
 
 /* ========== Scrollbar Styles ========== */
 
 html::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  border-radius: 10px;
-  background-color: hsl(20, 6%, 15%);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: hsl(20, 6%, 15%);
 }
 
 html::-webkit-scrollbar {
-  width: 15px;
-  background-color: hsl(20, 6%, 15%);
+    width: 15px;
+    background-color: hsl(20, 6%, 15%);
 }
 
 html::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-  background-color: hsl(13, 89%, 50%);
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: hsl(13, 89%, 50%);
 }
 
 /* ========== Portfolio globals ========== */
 
 .portfolio-logo-absolute {
-  position: absolute;
-  padding: 3vw 0 0 3vw;
-  width: 8vw;
+    position: absolute;
+    padding: 3vw 0 0 3vw;
+    width: 8vw;
 }
 
 .portfolio-background {
-  background-color: hsl(42, 21%, 72%);
-  color: hsl(20, 6%, 15%);
-  height: 100%;
+    background-color: hsl(42, 21%, 72%);
+    color: hsl(20, 6%, 15%);
+    height: 100%;
 }
 
 .content-container {
-  padding: 15vh 15%;
+    padding: 15vh 15%;
 }
 
 .content-html-tag-font {
-  color: red;
-  font-size: 10vw;
-  font-family: 'Kalam', cursive;
+    color: red;
+    font-size: 10vw;
+    font-family: 'Kalam', cursive;
 }
 
 /* .logo-loading {
@@ -70,115 +70,115 @@ html::-webkit-scrollbar-thumb {
 /* ========== Welcome content ========== */
 
 .welcome-content {
-  height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 .welcome-font {
-  font-size: 3.5vw;
-  font-family: 'Montserrat', sans-serif;
+    font-size: 3.5vw;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .welcome-words {
-  padding: 0 0 0 3vw;
+    padding: 0 0 0 3vw;
 }
 
 .welcome-image {
-  position: absolute;
-  width: 17vw;
-  padding: 0 6vw 0 51vw;
+    position: absolute;
+    width: 17vw;
+    padding: 0 6vw 0 51vw;
 }
 
 /* ========== Projects content ========== */
 
 .projects-content {
-  display: flex;
+    display: flex;
 }
 
 /* ========== Skills content ========== */
 
 .skills-content {
-
+    display: flex;
 }
 
 /* ========== About content ========== */
 
 .about-content {
-
+    display: flex;
 }
 
 /* ========== Contact content ========== */
 
 .contact-content {
-
+    display: flex;
 }
 
 /* ========== Footer ========== */
 
 .portfolio-footer-container {
-  text-align: center;
-  font-size: 1.2vw;
-  background-color: hsl(13, 89%, 60%);
-  color: hsl(20, 6%, 15%);
-  padding: 1% 0;
+    text-align: center;
+    font-size: 1.2vw;
+    background-color: hsl(13, 89%, 60%);
+    color: hsl(20, 6%, 15%);
+    padding: 1% 0;
 }
 
 /* ========== Animations ========== */
 
 .fade-in-right-to-left {
-	animation-name: fadeInRight;
-  animation-duration: 1s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-  opacity: 0;
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .fade-in-left-to-right {
-  animation-name: fadeInLeft;
-  animation-duration: 1s;
-  animation-delay: 1.25s;
-  animation-fill-mode: forwards;
-  opacity: 0;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    animation-delay: 1.25s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .logo-fade-in {
-  animation-name: fadeIn;
-  animation-duration: 1s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-  opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 @keyframes fadeInRight {
-  from {
-  	opacity: 0;
-    transform: translate(10vw,0);
-  }
-  to {
- 	  opacity: 1;
-  }
+    from {
+        opacity: 0;
+        transform: translate(10vw, 0);
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeInLeft {
-  from {
-  	opacity: 0;
-    transform: translate(-7.5vw,0);
-  }
-  to {
- 	  opacity: 1;
-  }
+    from {
+        opacity: 0;
+        transform: translate(-7.5vw, 0);
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeIn {
-  from {
-  	opacity: 0;
-  }
-  to {
- 	  opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* Breathing animation */
@@ -218,6 +218,6 @@ html::-webkit-scrollbar-thumb {
 /* Highlight text color */
 
 ::selection {
-  background-color: hsl(13, 89%, 60%);
-  color: #fff;
+    background-color: hsl(13, 89%, 60%);
+    color: #fff;
 }
