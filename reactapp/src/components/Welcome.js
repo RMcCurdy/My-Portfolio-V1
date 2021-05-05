@@ -9,10 +9,8 @@ const Welcome = () => {
             </div>
             <div className='welcome-content welcome-content-height welcome-font'>
                 <div className='welcome-words fade-in-right-to-left'>
-                    Hi, I'm Robert.
-                    <br />
-                    University Student and
-                    <br />
+                    Hi, I'm Robert. <br />
+                    University Student and <br />
                     aspiring Web Developer.
                 </div>
                 <img

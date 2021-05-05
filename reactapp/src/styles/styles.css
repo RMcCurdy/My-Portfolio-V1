@@ -9,6 +9,18 @@ p {
     padding: 0px !important;
 }
 
+/* Fonts */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Kalam";
+    src: url("../fonts/Kalam-Regular.ttf") format("truetype");
+}
+
 /* ========== Scrollbar Styles ========== */
 
 html::-webkit-scrollbar-track {
@@ -49,7 +61,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 .content-html-tag-font {
-    color: red;
     font-size: 10vw;
     font-family: 'Kalam', cursive;
 }
@@ -79,7 +90,7 @@ html::-webkit-scrollbar-thumb {
 
 .welcome-font {
     font-size: 3.5vw;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .welcome-words {
