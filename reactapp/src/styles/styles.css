@@ -61,7 +61,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .content-html-tag-font {
-    font-size: 10vw;
+    font-size: 3vw;
     font-family: 'Kalam', cursive;
 }
 
@@ -106,25 +106,25 @@ html::-webkit-scrollbar-thumb {
 /* ========== Projects content ========== */
 
 .projects-content {
-    display: flex;
+    
 }
 
 /* ========== Skills content ========== */
 
 .skills-content {
-    display: flex;
+    
 }
 
 /* ========== About content ========== */
 
 .about-content {
-    display: flex;
+    
 }
 
 /* ========== Contact content ========== */
 
 .contact-content {
-    display: flex;
+    
 }
 
 /* ========== Footer ========== */
@@ -135,6 +135,7 @@ html::-webkit-scrollbar-thumb {
     background-color: hsl(13, 89%, 60%);
     color: hsl(20, 6%, 15%);
     padding: 1% 0;
+    font-family: Verdana, sans-serif;
 }
 
 /* ========== Animations ========== */
