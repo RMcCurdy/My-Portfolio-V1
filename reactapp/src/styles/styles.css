@@ -99,8 +99,8 @@ html::-webkit-scrollbar-thumb {
 
 .welcome-image {
     position: absolute;
-    width: 17vw;
-    padding: 0 6vw 0 51vw;
+    width: 10vw;
+    padding: 0 4vw 0 53vw;
 }
 
 /* ========== Projects content ========== */

@@ -1,5 +1,5 @@
 import React from 'react';
-import PixelArt from '../img/pxArtShadow2.png';
+import PixelArt from '../img/myPicNew.png';
 
 const Welcome = () => {
     return (
