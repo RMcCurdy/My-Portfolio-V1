@@ -2,23 +2,16 @@ body {
     margin: 0;
 }
 
-p {
-    display: block !important;
-    margin: 0px !important;
-    border: 0px !important;
-    padding: 0px !important;
-}
-
 /* Fonts */
 
 @font-face {
-    font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Kalam";
-    src: url("../fonts/Kalam-Regular.ttf") format("truetype");
+    font-family: 'Kalam';
+    src: url('../fonts/Kalam-Regular.ttf') format('truetype');
 }
 
 /* ========== Scrollbar Styles ========== */
@@ -63,6 +56,7 @@ html::-webkit-scrollbar-thumb {
 .content-html-tag-font {
     font-size: 3vw;
     font-family: 'Kalam', cursive;
+    margin: 3vw 0;
 }
 
 /* .logo-loading {
@@ -106,25 +100,46 @@ html::-webkit-scrollbar-thumb {
 /* ========== Projects content ========== */
 
 .projects-content {
-    
+}
+
+.project-information-container {
+    border: 3px solid hsl(13, 89%, 60%);
+    padding: 2vw 1.5vw;
+    margin: 0 2vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.project-title {
+    font-size: 2vw;
+    padding-bottom: 0.5vw;
+}
+
+.project-information {
+    font-size: 1.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.project-link {
+    font-size: 1.5vw;
+}
+
+.project-bottom-margin {
+    margin-bottom: 2vw;
 }
 
 /* ========== Skills content ========== */
 
 .skills-content {
-    
 }
 
 /* ========== About content ========== */
 
 .about-content {
-    
 }
 
 /* ========== Contact content ========== */
 
 .contact-content {
-    
 }
 
 /* ========== Footer ========== */
