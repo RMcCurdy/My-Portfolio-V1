@@ -53,24 +53,24 @@ html::-webkit-scrollbar-thumb {
     padding: 15vh 15%;
 }
 
+.content-container-not-welcome {
+    padding: 0 15% 15vh 15%;
+}
+
 .content-html-tag-font {
     font-size: 3vw;
     font-family: 'Kalam', cursive;
     margin: 3vw 0;
 }
 
-/* .logo-loading {
-  width: 30vw;
+.github-website-logo {
+    width: 2vw;
+    margin-right: 1vw;
 }
 
-.logo-loading-container {
-  height: 70vh;
-  width: 70vw;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+.github-website-logo:hover {
+    cursor: pointer;
+}
 
 /* ========== Welcome content ========== */
 
@@ -135,6 +135,12 @@ html::-webkit-scrollbar-thumb {
 /* ========== About content ========== */
 
 .about-content {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-words {
+    font-size: 2vw;
+    margin: 0 2vw;
 }
 
 /* ========== Contact content ========== */
