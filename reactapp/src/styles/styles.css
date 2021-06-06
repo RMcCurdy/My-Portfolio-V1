@@ -14,7 +14,9 @@ body {
     src: url('../fonts/Kalam-Regular.ttf') format('truetype');
 }
 
+/* ====================================== */
 /* ========== Scrollbar Styles ========== */
+/* ====================================== */
 
 html::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -35,7 +37,9 @@ html::-webkit-scrollbar-thumb {
     background-color: hsl(13, 89%, 50%);
 }
 
+/* ======================================= */
 /* ========== Portfolio globals ========== */
+/* ======================================= */
 
 .portfolio-logo-absolute {
     position: absolute;
@@ -54,7 +58,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .content-container-not-welcome {
-    padding: 0 15% 15vh 15%;
+    padding: 0 15% 10vh 15%;
 }
 
 .content-html-tag-font {
@@ -71,8 +75,9 @@ html::-webkit-scrollbar-thumb {
 .github-website-logo:hover {
     cursor: pointer;
 }
-
+/* ===================================== */
 /* ========== Welcome content ========== */
+/* ===================================== */
 
 .welcome-content {
     height: 70vh;
@@ -97,7 +102,9 @@ html::-webkit-scrollbar-thumb {
     padding: 0 4vw 0 53vw;
 }
 
+/* ====================================== */
 /* ========== Projects content ========== */
+/* ====================================== */
 
 .projects-content {
 }
@@ -127,12 +134,17 @@ html::-webkit-scrollbar-thumb {
     margin-bottom: 2vw;
 }
 
+/* ==================================== */
 /* ========== Skills content ========== */
+/* ==================================== */
 
 .skills-content {
+    font-family: 'Montserrat', sans-serif;
 }
 
+/* =================================== */
 /* ========== About content ========== */
+/* =================================== */
 
 .about-content {
     font-family: 'Montserrat', sans-serif;
@@ -143,12 +155,17 @@ html::-webkit-scrollbar-thumb {
     margin: 0 2vw;
 }
 
+/* ===================================== */
 /* ========== Contact content ========== */
+/* ===================================== */
 
 .contact-content {
+    font-family: 'Montserrat', sans-serif;
 }
 
+/* ============================ */
 /* ========== Footer ========== */
+/* ============================ */
 
 .portfolio-footer-container {
     text-align: center;
@@ -159,7 +176,9 @@ html::-webkit-scrollbar-thumb {
     font-family: Verdana, sans-serif;
 }
 
+/* ================================ */
 /* ========== Animations ========== */
+/* ================================ */
 
 .fade-in-right-to-left {
     animation-name: fadeInRight;
@@ -248,9 +267,18 @@ html::-webkit-scrollbar-thumb {
   }
 } */
 
-/* Highlight text color */
+/* ========================================== */
+/* ========== Highlight text color ========== */
+/* ========================================== */
 
 ::selection {
     background-color: hsl(13, 89%, 60%);
     color: #fff;
+}
+
+/* =========================================== */
+/* ========== Mobile device queries ========== */
+/* =========================================== */
+
+@media only screen and (max-width: 768px) {
 }
