@@ -1,4 +1,3 @@
-import React from 'react';
 import GithubLogo from '../img/githubLogo.png';
 import WebsiteLogo from '../img/websiteLogo.png';
 
