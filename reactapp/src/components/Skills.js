@@ -3,10 +3,10 @@ const Skills = () => {
         <div className='content-container-not-welcome'>
             <div className='skills-content content-height'>
                 <div className='content-html-tag-font'>&lt;skills&gt;</div>
-                React.js
-                JavaScript
-                HTML
-                CSS
+                <p>React.js</p>
+                <p>JavaScript</p>
+                <p>HTML</p>
+                <p>CSS</p>
                 <div className='content-html-tag-font'>&lt;/skills&gt;</div>
             </div>
         </div>
