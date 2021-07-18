@@ -2,7 +2,9 @@ const About = () => {
     return (
         <div className='content-container-not-welcome'>
             <div className='about-content content-height'>
+                {/* About header */}
                 <div className='content-html-tag-font'>&lt;about&gt;</div>
+                {/* About content */}
                 <div className='about-words'>
                     I'm a University Student studying at the University of
                     Calgary. I'm pursuing a BSc in Computer Science with a
