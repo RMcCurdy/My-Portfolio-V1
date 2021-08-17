@@ -8,6 +8,7 @@ const Welcome = () => {
                 {/* <img className="logo-loading-breathing logo-loading" src={Logo} alt="RM loading"/> */}
             </div>
             <div className='welcome-content welcome-content-height welcome-font'>
+                {/* Welcome content */}
                 <div className='welcome-words fade-in-right-to-left'>
                     Hi, I'm Robert. <br />
                     University Student and <br />
