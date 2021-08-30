@@ -9,9 +9,9 @@ const Projects = () => {
                 <div className='project-information-container project-bottom-margin'>
                     <div className='project-title'>Bandwagon</div>
                     <div className='project-information'>
-                        A web-based application using ASP.NET Core 5 backend
-                        API, Entity Framework Core, a SQLite backend database,
-                        and a React JS front end client.
+                        A web-based application using ASP.NET Core 5 API, Entity
+                        Framework Core, SQLite Database, and a React JS front
+                        end client.
                     </div>
                     <div className='project-link'>
                         <img
