@@ -3,7 +3,7 @@ import WebsiteLogo from '../img/websiteLogo.png';
 
 const Projects = () => {
     return (
-        <div className='content-container-not-welcome'>
+        <div id='projects' className='content-container-not-welcome'>
             <div className='projects-content'>
                 <div className='content-html-tag-font'>&lt;projects&gt;</div>
                 <div className='project-information-container project-bottom-margin'>

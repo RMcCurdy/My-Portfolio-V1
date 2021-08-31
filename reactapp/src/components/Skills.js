@@ -1,6 +1,6 @@
 const Skills = () => {
     return (
-        <div className='content-container-not-welcome'>
+        <div id='skills' className='content-container-not-welcome'>
             <div className='skills-content content-height'>
                 {/* Skills content */}
                 <div className='content-html-tag-font'>&lt;skills&gt;</div>

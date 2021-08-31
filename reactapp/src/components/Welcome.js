@@ -3,7 +3,7 @@ import PixelArt from '../img/myPicNew.png';
 
 const Welcome = () => {
     return (
-        <div className='content-container'>
+        <div id='home' className='content-container'>
             <div className='logo-loading-container'>
                 {/* <img className="logo-loading-breathing logo-loading" src={Logo} alt="RM loading"/> */}
             </div>

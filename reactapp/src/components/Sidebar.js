@@ -17,6 +17,9 @@ import PersonIcon from '@material-ui/icons/Person';
 // Be sure to include styles at some point, probably during your bootstraping
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
+// Scroll to elements on the page
+import { scroller } from 'react-scroll';
+
 const Sidebar = () => {
     return (
         <SideNav
@@ -27,7 +30,11 @@ const Sidebar = () => {
                 background: 'hsl(13, 89%, 60%)',
             }}
             onSelect={(selected) => {
-                // Add your code here
+                scroller.scrollTo(selected, {
+                    duration: 1000,
+                    delay: 0,
+                    smooth: 'easeInOutCubic',
+                });
             }}>
             <SideNav.Toggle />
             <SideNav.Nav defaultSelected='home'>
