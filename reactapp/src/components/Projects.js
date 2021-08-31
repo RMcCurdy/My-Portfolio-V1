@@ -1,7 +1,7 @@
 import ReactPlayer from 'react-player';
 import { Slide } from 'react-slideshow-image';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import WebsiteIcon from '@material-ui/icons/Http';
+import WebsiteIcon from '@material-ui/icons/Language';
 
 import 'react-slideshow-image/dist/styles.css';
 
@@ -15,8 +15,8 @@ const slideImages = [
 ];
 
 const properties = {
-    duration: 3000,
-    transitionDuration: 700,
+    duration: 3500,
+    transitionDuration: 1000,
     infinite: true,
 };
 
@@ -31,7 +31,7 @@ const Projects = () => {
                         style={{ display: 'flex', alignItems: 'center' }}>
                         Bandwagon
                         <GitHubIcon
-                            className='github-website-logo'
+                            className='github-logo'
                             onClick={() =>
                                 window.open(
                                     'https://github.com/RMcCurdy/Bandwagon',
@@ -40,7 +40,7 @@ const Projects = () => {
                             }
                             style={{
                                 marginLeft: '1rem',
-                                fontSize: 30,
+                                fontSize: '3rem',
                             }}
                         />
                     </div>
@@ -52,7 +52,7 @@ const Projects = () => {
                         Database, and a React JS front end client.
                     </div>
 
-                    <div className='slideshow-container'>
+                    <div>
                         <Slide easing='ease' {...properties}>
                             <div className='each-slide'>
                                 <div
@@ -118,7 +118,7 @@ const Projects = () => {
                         style={{ display: 'flex', alignItems: 'center' }}>
                         Skip The Books{' '}
                         <GitHubIcon
-                            className='github-website-logo'
+                            className='github-logo'
                             onClick={() =>
                                 window.open(
                                     'https://github.com/RMcCurdy/CalgaryHacks2021',
@@ -127,11 +127,11 @@ const Projects = () => {
                             }
                             style={{
                                 marginLeft: '1rem',
-                                fontSize: 30,
+                                fontSize: '3rem',
                             }}
                         />
                         <WebsiteIcon
-                            className='github-website-logo'
+                            className='github-website-logo website-logo'
                             onClick={() =>
                                 window.open(
                                     'https://duan-le.github.io/CalgaryHacks2021/',
@@ -140,7 +140,7 @@ const Projects = () => {
                             }
                             style={{
                                 marginLeft: '1rem',
-                                fontSize: 30,
+                                fontSize: '3.5rem',
                             }}
                         />
                     </div>
@@ -161,7 +161,7 @@ const Projects = () => {
                             style={{ display: 'flex', alignItems: 'center' }}>
                             WaitLess{' '}
                             <GitHubIcon
-                                className='github-website-logo'
+                                className='github-logo'
                                 onClick={() =>
                                     window.open(
                                         'https://github.com/RMcCurdy/TeamS_Project',
@@ -170,11 +170,11 @@ const Projects = () => {
                                 }
                                 style={{
                                     marginLeft: '1rem',
-                                    fontSize: 30,
+                                    fontSize: '3rem',
                                 }}
                             />
                             <WebsiteIcon
-                                className='github-website-logo'
+                                className='website-logo'
                                 onClick={() =>
                                     window.open(
                                         'https://edmunds13.github.io/#',
@@ -183,7 +183,7 @@ const Projects = () => {
                                 }
                                 style={{
                                     marginLeft: '1rem',
-                                    fontSize: 30,
+                                    fontSize: '3.5rem',
                                 }}
                             />
                         </div>
@@ -211,7 +211,7 @@ const Projects = () => {
                         style={{ display: 'flex', alignItems: 'center' }}>
                         Rob's Helper Bot{' '}
                         <GitHubIcon
-                            className='github-website-logo'
+                            className='github-logo'
                             onClick={() =>
                                 window.open(
                                     'https://github.com/RMcCurdy/Discord-Bot',
@@ -220,7 +220,7 @@ const Projects = () => {
                             }
                             style={{
                                 marginLeft: '1rem',
-                                fontSize: 30,
+                                fontSize: '3rem',
                             }}
                         />
                     </div>

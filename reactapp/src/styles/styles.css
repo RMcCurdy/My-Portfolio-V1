@@ -75,11 +75,26 @@ html::-webkit-scrollbar-thumb {
     margin: 3vw 0;
 }
 
-
-.github-website-logo:hover {
-    cursor: pointer;
-    color: rgb(80, 80, 80)
+.github-logo {
+    margin-left: 1rem;
+    font-size: 3rem;
 }
+
+.github-logo:hover {
+    cursor: pointer;
+    color: rgb(80, 80, 80);
+}
+
+.website-logo {
+    margin-left: 1rem;
+    font-size: 3.5rem;
+}
+
+.website-logo:hover {
+    cursor: pointer;
+    color: rgb(80, 80, 80);
+}
+
 /* ===================================== */
 /* ========== Welcome content ========== */
 /* ===================================== */
@@ -144,7 +159,7 @@ html::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 40vw;
+  height: 25vw;
 }
 
 .each-slide span {
@@ -159,10 +174,6 @@ html::-webkit-scrollbar-thumb {
   /* padding: 0.5em 1em;
   border-radius: 25px;
   background-color: #ffc56d; */
-}
-
-.slideshow-container {
-  
 }
 
 /* ==================================== */
@@ -278,4 +289,10 @@ html::-webkit-scrollbar-thumb {
 /* =========================================== */
 
 @media only screen and (max-width: 768px) {
+    .content-container-not-welcome {
+        padding: 0 5% 5% 5%;
+    }
+    .sidebar {
+        max-width: 32px !important; 
+    }
 }
