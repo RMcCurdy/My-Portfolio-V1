@@ -75,13 +75,10 @@ html::-webkit-scrollbar-thumb {
     margin: 3vw 0;
 }
 
-.github-website-logo {
-    width: 2vw;
-    margin-right: 1vw;
-}
 
 .github-website-logo:hover {
     cursor: pointer;
+    color: rgb(80, 80, 80)
 }
 /* ===================================== */
 /* ========== Welcome content ========== */
@@ -140,6 +137,32 @@ html::-webkit-scrollbar-thumb {
 
 .project-bottom-margin {
     margin-bottom: 2vw;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 40vw;
+}
+
+.each-slide span {
+  font-size: 2vw;
+  /* border: 2px solid red; */
+}
+
+.slideshow-header-text {
+  color: #3b3b3b;
+  text-shadow: 2px 2px rgb(240, 240, 240);
+  padding-bottom: 35vw;
+  /* padding: 0.5em 1em;
+  border-radius: 25px;
+  background-color: #ffc56d; */
+}
+
+.slideshow-container {
+  
 }
 
 /* ==================================== */
