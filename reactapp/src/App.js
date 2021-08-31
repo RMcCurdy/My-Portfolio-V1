@@ -11,9 +11,7 @@ function App() {
     return (
         <>
             <Sidebar />
-            <div
-                className='portfolio-background'
-                style={{ paddingLeft: '4rem' }}>
+            <div className='portfolio-background'>
                 <div>
                     <img
                         className='portfolio-logo-absolute logo-fade-in'

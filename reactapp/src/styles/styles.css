@@ -59,6 +59,7 @@ html::-webkit-scrollbar-thumb {
     background-color: hsl(42, 21%, 72%);
     color: hsl(20, 6%, 15%);
     height: 100%;
+    padding-left: 4rem;
 }
 
 .content-container {
@@ -288,11 +289,18 @@ html::-webkit-scrollbar-thumb {
 /* ========== Mobile device queries ========== */
 /* =========================================== */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 415px) {
+    .portfolio-background {
+        padding-left: 0rem;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
     .content-container-not-welcome {
         padding: 0 5% 5% 5%;
-    }
-    .sidebar {
-        max-width: 32px !important; 
     }
 }

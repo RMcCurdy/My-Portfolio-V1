@@ -18,11 +18,11 @@ import PersonIcon from '@material-ui/icons/Person';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
 // Scroll to elements on the page
-import { scroller } from 'react-scroll';
 
 const Sidebar = () => {
     return (
         <SideNav
+            className='sidebar'
             style={{
                 position: 'fixed',
                 top: '0',
@@ -30,11 +30,22 @@ const Sidebar = () => {
                 background: 'hsl(13, 89%, 60%)',
             }}
             onSelect={(selected) => {
-                scroller.scrollTo(selected, {
-                    duration: 1000,
-                    delay: 0,
-                    smooth: 'easeInOutCubic',
-                });
+                // scroller.scrollTo(selected, {
+                //     duration: 1000,
+                //     delay: 0,
+                //     smooth: 'easeInOutCubic',
+                // });
+                if (selected === 'projects') {
+                    document.getElementById(selected).scrollIntoView({
+                        block: 'start',
+                        behavior: 'smooth',
+                    });
+                } else {
+                    document.getElementById(selected).scrollIntoView({
+                        block: 'center',
+                        behavior: 'smooth',
+                    });
+                }
             }}>
             <SideNav.Toggle />
             <SideNav.Nav defaultSelected='home'>
