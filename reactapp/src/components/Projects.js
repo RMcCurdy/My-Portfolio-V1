@@ -1,5 +1,6 @@
 import GithubLogo from '../img/githubLogo.png';
 import WebsiteLogo from '../img/websiteLogo.png';
+import ReactPlayer from 'react-player';
 
 const Projects = () => {
     return (
@@ -92,6 +93,7 @@ const Projects = () => {
                             }
                         />
                     </div>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=492zDqviTfQ' />
                     {/* https://edmunds13.github.io/# */}
                 </div>
                 <div className='project-information-container'>
