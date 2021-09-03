@@ -67,7 +67,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .content-container-not-welcome {
-    padding: 0 15% 10vh 15%;
+    padding: 0 10% 10vh 10%;
 }
 
 .content-html-tag-font {
@@ -138,17 +138,17 @@ html::-webkit-scrollbar-thumb {
 }
 
 .project-title {
-    font-size: 2vw;
+    font-size: 32px;
     padding-bottom: 0.5vw;
 }
 
 .project-information {
-    font-size: 1.5vw;
+    font-size: 20px;
     padding-bottom: 0.5vw;
 }
 
 .project-link {
-    font-size: 1.5vw;
+    font-size: 24px;
 }
 
 .project-bottom-margin {
@@ -160,21 +160,12 @@ html::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 25vw;
+  height: 14vw;
 }
 
 .each-slide span {
   font-size: 2vw;
   /* border: 2px solid red; */
-}
-
-.slideshow-header-text {
-  color: #3b3b3b;
-  text-shadow: 2px 2px rgb(240, 240, 240);
-  padding-bottom: 35vw;
-  /* padding: 0.5em 1em;
-  border-radius: 25px;
-  background-color: #ffc56d; */
 }
 
 /* ==================================== */
