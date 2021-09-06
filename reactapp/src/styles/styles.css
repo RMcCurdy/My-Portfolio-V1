@@ -71,7 +71,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .content-html-tag-font {
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: 'Kalam', cursive;
     margin: 3vw 0;
 }
@@ -203,11 +203,11 @@ html::-webkit-scrollbar-thumb {
 
 .portfolio-footer-container {
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1vw;
     background-color: hsl(42, 21%, 72%);
     color: hsl(20, 6%, 15%);
     padding: 1% 0;
-    font-family: Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* ================================ */
