@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
     return (
         <>
-            <Sidebar />
+            {/* <Sidebar /> */}
             <div className='portfolio-background'>
                 <div>
                     <img
@@ -22,8 +22,8 @@ function App() {
                 </div>
                 <Welcome />
                 <Projects />
-                <Skills />
                 <About />
+                <Skills />
                 <Contact />
             </div>
 

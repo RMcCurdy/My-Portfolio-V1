@@ -10,7 +10,7 @@ const Welcome = () => {
             <div className='welcome-content welcome-content-height welcome-font'>
                 {/* Welcome content */}
                 <div className='welcome-words fade-in-right-to-left'>
-                    Hey, I am Robert. <br />
+                    <div className='hey-im-robert-text'>Hey, I am Robert.</div>{' '}
                     University Student and <br />
                     aspiring Web Developer.
                 </div>
